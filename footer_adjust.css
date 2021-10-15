@@ -1,0 +1,24 @@
+html {
+    height: 100vh;
+}
+html.admin-bar {
+    height: calc( 100vh - 32px );
+}
+@media (max-width: 767px) {
+    html.admin-bar {
+        height: calc( 100vh - 46px );
+    }
+}
+body {
+    height: 100% !important;
+}
+#page {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 100%;
+}
+#content {
+    min-height: auto !important;
+    margin-bottom: auto !important;
+}
